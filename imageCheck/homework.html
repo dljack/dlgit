@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link href="css/homework.css" rel="stylesheet">
+		<script type="text/javascript" src="js/homework.js"></script>
+		<title>图片查看器</title>
+	</head>
+	<body>
+			
+			<center>	<h1><span class="h1">图片查看器</span></h1>  </center>
+			<p class="explain">你可以拖拽着图片到下边空处，然后滚动鼠标滑轮放大和缩小图片</p>
+			<div id="main">
+			<div style="left:50px;top:80px;" onMouseDown="move(this,event)" >
+				<img alt="红花" src="img/1.jpg"  />
+			</div>
+			<div style="left:300px;top:80px;" onMouseDown="move(this,event)">
+				<img alt="百花" src="img/2.jpg" />
+			</div>
+			<div style="left:550px;top:80px;" onMouseDown="move(this,event)">
+				<img alt="郁金香" src="img/3.jpg"/>
+			</div>
+			<div style="left:800px;top:80px;" onMouseDown="move(this,event)">
+				<img alt="戈壁" src="img/4.jpg"/>
+			</div>
+			<div style="left:1050px;top:80px;" onMouseDown="move(this,event)">
+				<img alt="水母" src="img/5.jpg"/>
+			</div>
+			</div>
+		</div>
+	</body>
+</html>

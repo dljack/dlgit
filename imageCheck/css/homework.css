@@ -1,0 +1,24 @@
+img{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	background: url(../img/bg.png) center;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0 auto;
+}
+.explain{
+	text-align: center; 
+}
+.h1{
+	margin: 0 auto;
+}
+#main div{
+	position:absolute;
+	width:200px;
+	height:150px;
+	padding:1px;
+	cursor:pointer;
+		}
